@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechSparks Landing Page</title>
+
+    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    
+    <div id="successModal" class="modal">
+      <div class="modal-content">
+        <h2>Success!</h2>
+        <p>Your form has been successfully submitted.</p>
+        <button id="closeSuccessModal" class="btn">Close</button>
+      </div>
+    </div>
+    
+    <div id="validationModal" class="modal">
+      <div class="modal-content">
+        <h2> Error !</h2>
+        <p>Kindly fill all the details.</p>
+        <button id="closeValidationModal" class="btn">Close</button>
+      </div>
+    </div>
+    
+    <header class="header">
+      <a href="#CSI" class="logo"><span>Computer Society of India</span></a>
+
+      <nav class="navbar">
+        <button onclick="location.href='#home'" class="nav-button">Home</button>
+        <button onclick="location.href='#about'" class="nav-button"> About </button>
+        <button onclick="location.href='#gallery'" class="nav-button">Gallery</button>
+        <button onclick="location.href='#members'" class="nav-button">Our Organisers</button>
+        <button onclick="location.href='#participate'" class="nav-button">Submit Your Idea</button>
+        <button onclick="location.href='#joinus'" class="nav-button">Event Timeline</button>
+      </nav>
+
+      <div id="menu-bars" class="fas fa-bars"></div>
+    </header>
+
+    <!-- home section starts  -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>
+          <span class="glow"  id="techsparks-heading">Welcome to TechSparks !!</span>
+          <p  id="innovation-heading" ></p>
+
+        </h3>
+       
+      </div>
+
+      <div class="swiper-container home-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/home1.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/home2.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/home3.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/home4.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/home5.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/home6.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    
+    <!-- gallery section starts  -->
+    <section class="gallery" id="gallery">
+      <h1 class="heading">Some Past Events Conducted by <span> OUR CSI CLUB </span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/gallery1.jpg" alt="" />
+          <h3 class="title">Our events</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/gallery2.jpg" alt="" />
+          <h3 class="title">Our events</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/gallery3.jpg" alt="" />
+          <h3 class="title">Our events</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/gallery4.jpg" alt="" />
+          <h3 class="title">Our events</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/gallery5.jpg" alt="" />
+          <h3 class="title">Our events</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/gallery6.jpg" alt="" />
+          <h3 class="title">Our events</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/gallery7.jpg" alt="" />
+          <h3 class="title">Our events</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/gallery8.jpg" alt="" />
+          <h3 class="title">Our events</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+
+       
+      </div>
+    </section>
+
+    
+    <section class="participate" id="participate">
+      <h1 class="heading">Submit Your Idea <span> in any one of the domain !</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <h3 class="title">STARTUP IDEA (SOFTWARE)</h3>
+          <h3 class="amount">Domains: </h3>
+          <ul>
+            <li><i class="fas fa-check"></i>AI/ML</li>
+            <li><i class="fas fa-check"></i> AGRITECH</li>
+            <li><i class="fas fa-check"></i> BIOTECH</li>
+            <li><i class="fas fa-check"></i> SPACE</li>
+            <li><i class="fas fa-check"></i> HEALTHCARE</li>
+           
+          </ul>
+          <a href="#contact" class="btn">Click to proceed</a>
+        </div>
+
+        <div class="box">
+          <h3 class="title">STARTUP IDEA (HARDWARE)</h3>
+          <h3 class="amount">Domains:</h3>
+          <ul>
+            <li><i class="fas fa-check"></i>ELECTRIC VEHICLES</li>
+            <li><i class="fas fa-check"></i> ROBOTICS</li>
+            <li><i class="fas fa-check"></i> AEROSPACE</li>
+            <li><i class="fas fa-check"></i> AGRICULTURE</li>
+           
+          </ul>
+          <a href="#contact" class="btn">Click to procced</a>
+        </div>
+
+        <div class="box">
+          <h3 class="title">EXISTING PRODUCT SOLUTION</h3>
+          <h3 class="amount">Companies:</h3>
+          <ul>
+            <li><i class="fas fa-check"></i>GOOGLE</li>
+            <li><i class="fas fa-check"></i> INSTAGRAM</li>
+            <li><i class="fas fa-check"></i> BLINKIT</li>
+            <li><i class="fas fa-check"></i> SWIGGY</li>
+            <li><i class="fas fa-check"></i> PAYTM</li>
+          </ul>
+          <a href="#contact" class="btn">Click to proceed</a>
+        </div>
+
+        <div class="box">
+          <h3 class="title">TECH IDEAS</h3>
+          <h3 class="amount"> All Allowed:</h3>
+          <ul>
+            <li><i class="fas fa-check"></i>AI/ML</li>
+            <li><i class="fas fa-check"></i> AGRITECH</li>
+            <li><i class="fas fa-check"></i> BIOTECH</li>
+            <li><i class="fas fa-check"></i> SPACE</li>
+            <li><i class="fas fa-check"></i> HEALTHCARE</li>
+            <li><i class="fas fa-check"></i> ELECTRIC VEHICLES</li>
+            
+          </ul>
+          <a href="#contact" class="btn">Click to proceed</a>
+        </div>
+      </div>
+    </section>
+ <!-- contact section starts  -->
+ <section class="contact" id="contact">
+  <h1 class="heading"><span>Fill the details to submit your Idea !! </span></h1>
+
+  <form action="">
+    <div class="inputBox">
+      <input type="text" placeholder="name" />
+      <input type="email" placeholder="email" />
+    </div>
+    <div class="inputBox">
+      <input type="tel" placeholder="college registration number" />
+      <select name="event" id="event">
+        <option value="Choose an Event" disabled selected>Choose a Main Category</option>
+        <option value="Extreme CodeVanza">Startup Idea (Software)</option>
+        <option value="Techno Sights">Startup Idea (Hardware)</option>
+        <option value="Technovaluation">Existing Product Solution</option>
+        <option value="QuizzziMania">Tech Ideas</option>
+      </select>
+    </div>
+    <div class="inputBox">
+      <textarea placeholder="Idea Description" rows="4"></textarea> <!-- New Description Input -->
+    </div>
+    <input type="submit" value="Submit" class="btn" />
+  </form>
+</section>
+
+<!-- about section starts  -->
+<section class="about" id="about">
+  <h1 class="heading"><span>About  TECHSPARKS </span> Event !!</h1>
+
+  <div class="row">
+    <div class="image">
+      <img src="images/about.jpg" alt="" />
+    </div>
+    
+    <div class="content">
+      <h3>Namaste Everyone !!</h3>
+      <p id="dynamic-text">
+          <span id="text-content"></span>
+      </p>
+  </div>
+  </div>
+</section>
+
+    
+    <section class="members" id="members">
+      <h1 class="heading">Our Talented <span>Organisers of TECHSPARKS !!</span></h1>
+
+      <div class="review-slider swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/img1.jpg" alt="" />
+              <div class="user-info">
+                <h3>Pratham Goyal</h3>
+                <span>CORE MEMBER</span>
+              </div>
+            </div>
+            <p>Computer Science Undergrad at VIT Bhopal</p>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/img2.jpg" alt="" />
+              <div class="user-info">
+                <h3>Spandan Sahoo</h3>
+                <span> CORE MEMBER</span>
+              </div>
+            </div>
+            <p>Computer Science Undergrad at VIT Bhopal</p>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/img3.jpg" alt="" />
+              <div class="user-info">
+                <h3>Harshvardhan Jajoo</h3>
+                <span>CORE MEMBER</span>
+              </div>
+            </div>
+            <p>Computer Science Undergrad at VIT Bhopal</p>
+          </div>
+
+         
+
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="joinus" id="joinus">
+      <h1 class="heading">Event <span>Timeline</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-envelope"></i>
+          <h3>Inauguration & Keynote Address</h3>
+          <h3>Time: 10:00 AM - 10:30 AM</h3>
+          <p>
+            Kick off the event with an inspiring keynote from industry leaders and innovators.
+          </p>
+          <a href="#sub" class="btn">Join Us</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-laptop"></i>
+          <h3>Idea Pitching Session</h3>
+          <h3>Time: 10:30 AM - 12:30 PM</h3>
+          <p>
+            Participants present their tech ideas, startups, or solutions to a panel of judges and peers.
+
+
+          </p>
+          <a href="#sub" class="btn">Join Us</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-laptop"></i>
+          <h3>Workshop: Building Scalable Tech Solutions</h3>
+          <h3>Time: 1:00 PM - 2:30 PM</h3>
+          <p>
+            Learn practical techniques for transforming ideas into scalable and impactful technologies.
+
+
+          </p>
+          <a href="#sub" class="btn">Join Us</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-youtube"></i>
+          <h3>Judging & Feedback
+          </h3>
+          <h3>Time: 3:30 PM - 4:30 PM</h3>
+          <p>
+            Judges review presentations, provide constructive feedback, and evaluate the ideas for feasibility and innovation.
+          </p>
+          <a href="#sub" class="btn">Join Us</a>
+        </div>
+
+        
+
+        
+      </div>
+
+
+         
+    </section>
+  
+         
+    </section>
+    <section class="sub" id="sub">
+      <h1 class="heading">
+        <span id="typing-text"></span> <!-- This span will hold the text -->
+      </h1>
+    
+      <form action="">
+        <div class="inputBox">
+          <input type="text" placeholder="name" />
+          <input type="email" placeholder="email" />
+        </div>
+        <div class="inputBox">
+          <input type="tel" placeholder="college registration number" />
+          <select name="event" id="event">
+            <option value="Choose a Domain " disabled selected>Choose A Main Category</option>
+            <option value="Creative">Startup Idea (Software)</option>
+            <option value="Technical">Startup Idea (Hardware)</option>
+            <option value="Event">Existing Product Solution</option>
+            <option value="PR&SM">Tech Ideas</option>
+            
+          </select>
+        </div>
+       
+        <input type="submit" value="Submit" class="btn" />
+
+        
+        
+      </form>
+    </section>
+    </section>
+
+   
+
+    <!-- footer section starts  -->
+    <section class="footer">
+      <div class="box-container">
+        
+
+        <div class="box">
+          <h3>quick links</h3>
+          
+          <a href="#home"> <i class="fas fa-arrow-right"></i> Home</a>
+          <a href="#about"> <i class="fas fa-arrow-right"></i> About </a>
+          <a href="#gallery"> <i class="fas fa-arrow-right"></i> Gallery </a>
+          <a href="#members"> <i class="fas fa-arrow-right"></i> Our Organisers </a>
+          <a href="#participate"> <i class="fas fa-arrow-right"></i> Submit Your Idea </a>
+          <a href="#joinus"> <i class="fas fa-arrow-right"></i> Event Timeline</a>
+        </div>
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a href="#"> <i class="fas fa-phone"></i> +91 9938226067 </a>
+         
+          <a href="#sohan.23bce11844@vitbhopal.ac.in"> <i class="fas fa-envelope"></i> sohan.23bce11844@vitbhopal.ac.in </a>
+          <a href="#sohansahoo542@gmail.com"> <i class="fas fa-envelope"></i> sohansahoo542@gmail.com</a>
+          <a href="https://www.google.com/maps/place/VIT+Bhopal+University/@23.0774764,76.8487122,17z/data=!3m1!4b1!4m6!3m5!1s0x397ce9ceaaaaaaab:0xa224b6b82b421f83!8m2!3d23.0774715!4d76.8512871!16s%2Fg%2F11c61hcx7z?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D">
+            <i class="fas fa-map-marker-alt"></i> VIT Bhopal University , Kothri-Kalan , Sehore , Madhya Pradesh, India - 466114
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>Follow CSI Club on  main social media handles !!</h3>
+          
+          
+          <a href="https://www.instagram.com/csi.vitb/"> <i class="fab fa-instagram"></i> instagram </a>
+          <a href="https://www.linkedin.com/company/csivitbhopal/"> <i class="fab fa-linkedin-in"></i> linkedin </a>
+        </div>
+      </div>
+
+      <div class="credit">
+        created by <span>Sohan Priyadarshi Sahoo (23BCE11844)</span> 
+      </div>
+
+
+   
+    <!-- theme toggler  -->
+    <div class="theme-toggler">
+      <div class="toggle-btn">
+        <i class="fas fa-cog"></i>
+      </div>
+
+      <h3>choose color</h3>
+
+      <div class="buttons">
+        <div class="theme-btn" style="background: #0d9029"></div>
+        <div class="theme-btn" style="background: #d35400"></div>
+        <div class="theme-btn" style="background: #f39c12"></div>
+        <div class="theme-btn" style="background: #1abc9c"></div>
+        <div class="theme-btn" style="background: #0b588c"></div>
+        <div class="theme-btn" style="background: #5e137c"></div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!--JS file-->
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -2,6 +2,7 @@ Set up Instructions:
 1. 1st clone the repository on your local system
 2. Then open index.html file
 3. Then open with live server
+   
 (OR)
 Directly Click on the link provided on the description to visit the Responsive Webpage created by me.
 

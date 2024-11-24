@@ -4,7 +4,7 @@ Set up Instructions:
 3. Then open with live server
    
 (OR)
-Directly Click on the link provided on the description to visit the Responsive Webpage created by me.
+Directly Click on the link provided on the about section (description) to visit the Responsive Webpage created by me.
 
 Brief explanation of my solution for Task 1:
 
